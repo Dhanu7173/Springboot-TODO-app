@@ -1,9 +1,6 @@
 # Use a base image that includes OpenJDK
 FROM openjdk:17-jdk
 
-# Install any necessary packages
-RUN apt-get update
-
 # Set a volume
 VOLUME /tmp
 
